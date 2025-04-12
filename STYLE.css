@@ -241,3 +241,113 @@ section.Header-Section {
     transition-duration: .4s;
     cursor: pointer;
 }
+
+
+/* ------------------ Responsive Design-Section ------------------ */
+@media (max-width: 1024px) {
+    .Div-Container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .Cards-Container {
+        padding: 0 60px;
+    }
+
+    .card-left-side {
+        padding: 0 40px;
+    }
+
+    .image {
+        width: 30vw;
+        margin: 0 30px;
+    }
+
+    .Footer-Container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Footer-Rightside {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .more-on-mntn {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Div-Container {
+        padding: 30px;
+    }
+
+    .Nav-Ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Header-H2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .card-left-side,
+    .card-right-side {
+        padding: 20px;
+    }
+
+    .image {
+        width: 60vw;
+        margin: 20px 0;
+    }
+
+    .Cards-H2 {
+        font-size: 24px;
+    }
+
+    .Footer-Container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Header-H2 {
+        font-size: 28px;
+    }
+
+    .image {
+        width: 80vw;
+    }
+
+    .Cards-Container {
+        padding: 0 20px;
+    }
+
+    .Footer-Container {
+        padding: 20px;
+    }
+
+    .Footer-H5 {
+        font-size: 16px;
+    }
+
+    .Footer-Li {
+        font-size: 14px;
+    }
+}
